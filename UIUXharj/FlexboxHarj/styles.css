@@ -1,0 +1,98 @@
+:root {
+  --jasper: #d76145ff;
+  --apricot: #f6bfaaff;
+  --coral: #e98b68ff;
+  --cornsilk: #fef7ddff;
+  --light-orange: #f5d7b6ff;
+  --isabelline: #f8f4f1ff;
+  --papaya-whip: #fff0cfff;
+  --vanilla: #feeba8ff;
+  --jasmine: #ffd27fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+#vasen {
+  background-color: var(--jasmine);
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#oikea {
+  background-color: var(--cornsilk);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.kortti {
+  background-color: var(--isabelline);
+  height: 60%;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kortti:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.kortti img {
+  max-width: 80%;
+  max-height: 70%;
+}
+
+.otsikko {
+  background-color: var(--cornsilk);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.seemore {
+  display: flex;
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  #vasen {
+    width: 100%;
+    height: auto;
+  }
+  #oikea {
+    width: 100%;
+    height: auto;
+  }
+  .kortti {
+    height: 90%;
+    width: 60%;
+  }
+  .kortti img {
+    max-width: 100%;
+    max-height: 80%;
+  }
+}
