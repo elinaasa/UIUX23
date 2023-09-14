@@ -1,12 +1,6 @@
 :root {
   --jasper: #d76145ff;
-  --apricot: #f6bfaaff;
-  --coral: #e98b68ff;
-  --cornsilk: #fef7ddff;
-  --light-orange: #f5d7b6ff;
   --isabelline: #f8f4f1ff;
-  --papaya-whip: #fff0cfff;
-  --vanilla: #feeba8ff;
   --jasmine: #ffd27fff;
 }
 
@@ -15,7 +9,7 @@
 }
 
 body {
-  background-color: var(--cornsilk);
+  background-color: var(--isabelline);
   margin: auto;
   height: 100%;
   font-family: "Overpass", sans-serif;
@@ -132,10 +126,10 @@ h2 {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   #vasen {
     width: 100%;
-    height: auto;
+    height: 40%;
   }
   #oikea {
     width: 100%;
@@ -155,7 +149,7 @@ h2 {
     font-size: 2rem;
   }
   .sisalto {
-    font-size: 22px;
+    font-size: 20px;
     height: 100%;
     margin: 0;
     padding-bottom: 5rem;
