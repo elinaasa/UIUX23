@@ -1,0 +1,62 @@
+* {
+  font-family: "Gabarito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+}
+
+body {
+  background: #e6d9d1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#eka {
+  color: #8ab6ee;
+}
+
+#eka:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
+#toka {
+  color: #045adc;
+}
+#toka:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
+
+#kolmas {
+  color: #8380c6;
+}
+#kolmas:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
+
+#neljäs {
+  color: #f2abba;
+}
+#neljäs:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
+
+#viides {
+  color: #f57c23;
+}
+#viides:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
+
+#kuudes {
+  color: #ef5738;
+}
+#kuudes:hover {
+  color: #f57c23;
+  cursor: pointer;
+}
