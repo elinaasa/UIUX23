@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero{
+    height: 700px;
+    background-color: dimgray;
+
+}
+
+main{
+    background-color: whitesmoke;
+    color: dimgray;
+    padding: 40px;
+}
+
+.kuva{
+    background-image: url(img/hienokuva3.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.kuva2{
+    background-image: url(img/hienokuva.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
