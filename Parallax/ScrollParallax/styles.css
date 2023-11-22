@@ -5,6 +5,10 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+body {
+  background-color: #190f30;
+}
+
 .hero {
   height: 100vh;
   background-color: #190f30;
@@ -17,6 +21,7 @@ main {
   padding: 40px;
   position: relative;
   margin-top: -40px;
+  height: 200vh;
 }
 
 .kuva {
@@ -26,6 +31,7 @@ main {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .kuva1 {
@@ -58,22 +64,4 @@ main {
 
 .kuva8 {
   background-image: url(img/Frame\ 7.png);
-}
-
-.mouseparallax {
-  width: 100%;
-  height: calc(100vh - 40px);
-  background-color: #190f30;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.layer-1 {
-  background-image: url(img/background\ -\ Copy.png);
-}
-
-.layer-2 {
-  background-image: url(img/Frame\ 6\ -\ Copy.png);
 }

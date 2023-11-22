@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #190f30;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+p {
+  margin-bottom: 30px;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #190f30;
+}
+
+main {
+  background-color: #190f30;
+  color: #d4d8da;
+  padding: 40px;
+  position: relative;
+  margin-top: -40px;
+}
+
+.kuva {
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.kuva1 {
+  background-image: url(img/background.png);
+}
+
+.kuva2 {
+  background-image: url(img/Frame\ 1.png);
+}
+
+.kuva3 {
+  background-image: url(img/Frame\ 2.png);
+}
+
+.kuva4 {
+  background-image: url(img/Frame\ 3.png);
+}
+
+.kuva5 {
+  background-image: url(img/Frame\ 4.png);
+}
+
+.kuva6 {
+  background-image: url(img/Frame\ 5.png);
+}
+
+.kuva7 {
+  background-image: url(img/Frame\ 6.png);
+}
+
+.kuva8 {
+  background-image: url(img/Frame\ 7.png);
+}
+
+.mouseparallax {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.layer-1 {
+  background-image: url(img/Frame\ 3.png);
+  position: absolute;
+}
+
+.layer-2 {
+  background-image: url(img/Frame\ 4.png);
+  position: absolute;
+}
+
+.layer-3 {
+  background-image: url(img/Frame\ 5.png);
+  position: absolute;
+}
+
+.layer-4 {
+  background-image: url(img/Frame\ 6.png);
+  position: absolute;
+}
+
+.layer-5 {
+  background-image: url(img/Frame\ 7.png);
+  position: absolute;
+}
+
+.pilvi1 {
+  background-image: url(img/pilvi1.png);
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  left: 10%;
+}
+
+.pilvi2 {
+  background-image: url(img/pilvi2.png);
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  top: 30%;
+  left: 50%;
+}
+
+.pilvi3 {
+  background-image: url(img/pilvi3.png);
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  top: 35%;
+  left: 20%;
+}
+
+.mouse,
+.mouse-center {
+  color: #190f30;
+  border: 1px solid #190f30;
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  margin: auto;
+}
+
+.mouse {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 100;
+}
+
+.mouse-center {
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  z-index: 100;
+}
